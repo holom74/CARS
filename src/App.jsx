@@ -15,14 +15,14 @@ import AllCars from './Components/AllCars/AllCars'
 import CarInfo from './Components/CarInfo/CarInfo'
 import Home from './Components/Home/Home'
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider, createHashRouter } from 'react-router-dom'
 import MasterLayout from './Components/MasterLayout/MasterLayout'
 import NotFound from './Components/NotFound/NotFound'
 
 
 function App() {
 
-  const routes = createBrowserRouter([
+  const routes = createHashRouter ([
     {
       path: '/',
       errorElement: <NotFound />,
