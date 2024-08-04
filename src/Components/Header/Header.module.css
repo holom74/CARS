@@ -1,0 +1,24 @@
+.bgImg {
+  /* position: relative; */
+  background-image: url(../../assets/imges/header/Frame.png);
+  background-position : right  center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.car img {
+  animation: drive 5s forwards;
+}
+
+
+
+@keyframes drive {
+  0% {
+    max-width: -50%;
+    transform: translatex(100px);
+  }
+  100% {
+    max-width: 100%;
+    transform: translatex(0);
+  }
+}

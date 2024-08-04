@@ -1,0 +1,9 @@
+.bgImg{
+  background-image: url(../../assets/imges/sec-5/Vector.png);
+  background-position-x: left;
+  background-position-y: center;
+  background-size: 55%;
+  /* background-size: cover; */
+  background-repeat: no-repeat ;
+
+}
